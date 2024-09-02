@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+/*===================================
+			    Geral
+===================================*/
+
+html {
+    font-size: calc(15px + 0.390625vw);
+}
+body {
+    font-family: "Montserrat", sans-serif;
+}
+main {
+	margin: 0 8vw 0 15vw;
+}
+
+/*==================================
+			    Topo
+==================================*/
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 1.5vw 0 10vw 4vw;
+}
+header p a strong {
+    font-weight: 700;
+}
+header nav ul {
+    display: flex;
+}
+header nav li {
+    margin: 0 4vw 0 4vw;
+}
+header nav li.outraPagina a {
+    color: #868686;
+}
+
+/*========================================
+			Conteúdo - Books
+========================================*/
+
+section.firstSection h1 {
+    font-family: "Playfair Display", serif;
+    font-size: 3rem;
+    font-weight: 600;
+}
+section.firstSection {
+    display: flex;
+}
+section.firstSection span {
+    color: #47c183;
+}
+section.firstSection p {
+    margin: 2vw 0 4vw 0;
+}
+section.firstSection button {
+    color: white;
+    background-color: black;
+    font-weight: 600;
+    padding: 2vw;
+    border: 0;
+}
