@@ -10,9 +10,10 @@ html {
 }
 body {
     font-family: "Montserrat", sans-serif;
+    margin: 0 12vw 0 0;
 }
 main {
-	margin: 0 8vw 0 15vw;
+	margin: 0 0 0 8vw;
 }
 
 /*==================================
@@ -22,7 +23,10 @@ main {
 header {
     display: flex;
     justify-content: space-between;
-    margin: 1.5vw 0 10vw 4vw;
+    margin: 1.5vw 15vw 10vw 4vw;
+}
+header p a {
+    margin: 0 0 0 5vw;
 }
 header p a strong {
     font-weight: 700;
@@ -31,7 +35,7 @@ header nav ul {
     display: flex;
 }
 header nav li {
-    margin: 0 4vw 0 4vw;
+    margin: 0 2.5vw 0 2.5vw;
 }
 header nav li.outraPagina a {
     color: #868686;
@@ -41,10 +45,13 @@ header nav li.outraPagina a {
 			Conteúdo - Books
 ========================================*/
 
+/*first*/
+
 section.firstSection h1 {
     font-family: "Playfair Display", serif;
     font-size: 3rem;
     font-weight: 600;
+    line-height: 120%;
 }
 section.firstSection {
     display: flex;
@@ -59,6 +66,61 @@ section.firstSection button {
     color: white;
     background-color: black;
     font-weight: 600;
-    padding: 2vw;
+    padding: 1.5vw 3.5vw 1.5vw 3.5vw;
     border: 0;
+    margin: 0 3vw 0 0;
+    font-size: 0.9rem;
+}
+section.firstSection div a {
+    text-decoration: underline;
+}
+
+/*second*/
+
+section.secondSection h2{
+    display: flex;
+    justify-content: center;
+    margin: 8vw 0 6vw 0;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+section.secondSection {
+    margin: 0 0 0 8vw;
+}
+    section.secondSection div {
+    display: flex;
+    position: relative;
+}
+section.secondSection div.dois {
+    margin: 4vw 0 4vw 0;
+}
+section.secondSection div.um p {
+    margin: 0 20vw 0 15vw;
+    position: absolute;
+    top: 25%;
+    margin-top: -25px; 
+    line-height: 160%;
+}
+section.secondSection div.dois p {
+    margin: 0 22vw 0 0;
+    position: absolute;
+    top: 40%;
+    margin-top: -25px;
+    line-height: 160%;
+}
+section.secondSection div.tres p {
+    margin: 0 20vw 0 15vw;
+    position: absolute;
+    top: 40%;
+    margin-top: -25px; 
+    line-height: 160%;
+}
+section.secondSection div.dois img {
+    margin: 0 0 0 60vw;
+}
+
+/*third*/
+
+section.thirdSection {
+    
 }
